@@ -25,14 +25,18 @@ public class simplifiedMindroidMethods {
   public static EV3GyroSensor gyro = new EV3GyroSensor(SensorPort.S3);
   public static EV3ColorSensor colorL = new EV3ColorSensor(SensorPort.S1);
   
-  
-  public static void main(String[] args) {
+  static{
     ultra.setCurrentMode("Distance");
     gyro.setCurrentMode("Angle");
     colorL.setCurrentMode("Ambient");
+  }
+
     
+  
+  
+  public static void main(String[] args) {
     //Ab hier könnt ihr programmieren
-       
+    
     
   } // end of main
   
