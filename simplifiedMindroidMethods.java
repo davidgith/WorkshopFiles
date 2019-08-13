@@ -35,11 +35,24 @@ public class simplifiedMindroidMethods {
   
   
   public static void main(String[] args) {
-    //Ab hier könnt ihr programmieren
+    //Ab hier kÃ¶nnt ihr programmieren
     
     
   } // end of main
   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   
   public static void forwardNeXT(int time){
     motorL.forward();
