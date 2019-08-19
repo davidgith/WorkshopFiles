@@ -24,6 +24,7 @@ public class simplifiedMindroidMethods {
   public static EV3UltrasonicSensor ultra = new EV3UltrasonicSensor(SensorPort.S2);
   public static EV3GyroSensor gyro = new EV3GyroSensor(SensorPort.S3);
   public static EV3ColorSensor colorL = new EV3ColorSensor(SensorPort.S1);
+  public static EV3ColorSensor colorR = new EV3ColorSensor(SensorPort.S4);
   
   static{
     ultra.setCurrentMode("Distance");
