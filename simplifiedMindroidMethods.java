@@ -58,6 +58,8 @@ public class simplifiedMindroidMethods {
     motorL.forward();
     motorR.forward();
     Delay.msDelay(time);
+    motorL.stop();
+    motorR.stop();
   }
   
   public static float getDistance(){
