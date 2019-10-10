@@ -15,7 +15,6 @@ public class mindroidInitialized {
   
   public static EV3LargeRegulatedMotor motorL= new EV3LargeRegulatedMotor(MotorPort.A);
   public static EV3LargeRegulatedMotor motorR= new EV3LargeRegulatedMotor(MotorPort.D);
-  }
   
   public static void main(String[] args) {
     //Ab hier könnt ihr programmieren
