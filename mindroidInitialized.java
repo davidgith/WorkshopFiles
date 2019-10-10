@@ -2,6 +2,7 @@ import lejos.hardware.motor.EV3LargeRegulatedMotor;
 import lejos.hardware.motor.EV3MediumRegulatedMotor;
 import lejos.hardware.port.MotorPort;
 import lejos.hardware.port.SensorPort;
+import lejos.utility.Delay;
 
 /**
   *
@@ -18,7 +19,8 @@ public class mindroidInitialized {
   
   public static void main(String[] args) {
     //Ab hier könnt ihr programmieren
-   
+    motorL.forward();
+    Delay.msDelay(1000);
     
   } // end of main
   
